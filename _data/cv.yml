@@ -1,14 +1,3 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Héloïse Gachet
-    - name: Date of Birth
-      value: 25th July 1999
-    - name: Languages
-      value: French, English
-
-
 - title: Experience
   type: time_table
   contents:
