@@ -2,21 +2,21 @@
   type: time_table
   contents:
     - title: PhD
-      institution: CERMICS, École des Ponts ParisTech
-      year: nov. 2023 - 2026
+      institution: CERMICS, École nationale des ponts et chaussées
+      year: nov.2023--2026
       description:
         - Integrated and robust design of cyclic grids for railway freight.
     - title: Internship at <a href="https://wwws.airfrance.fr/">Air France</a>
-      year: apr. - oct. 2023
+      year: apr.--oct.2023
       description:
-        - Metaheuristics and MILP for ground ressources planification.
+        - Metaheuristics and MILP for ground resources planification.
 
     - title: Internship at <a href="https://hanalog.ca/">Polytechnique Montréal</a>
-      year: feb. - aug. 2022
+      year: feb.--aug.2022
       description: Predictive allocation of digestive endoscopy procedural time.
 
     - title: Internship at <a href="https://www.sncf.com/fr/innovation-developpement/innovation-recherche">SNCF</a>
-      year: jun. - dec. 2021
+      year: jun.--dec.2021
       description: Introduction of similarities in crew schedules with non periodic train tasks.
 
 
@@ -25,18 +25,18 @@
   contents:
     - title: Master's Degree
       institution: <a href="https://uma.ensta-paris.fr/mpro/master2">MPRO</a> (Paris Master of Operations Research)
-      year: 2022-2023
+      year: 2022--2023
     - title: Engineering Degree
-      institution: École des Ponts ParisTech, Champs-sur-Marne
-      year: 2019-2023
+      institution: École nationale des ponts et chaussées, Champs-sur-Marne
+      year: 2019--2023
       description:
         - Mathematics and Computer Science department
     - title: Preparatory classes for the French Grandes Écoles (MPSI-MP*)
       institution: Lycée Louis-le-Grand, Paris
-      year: 2017-2019
+      year: 2017--2019
     - title: High-school - European English section
       institution: Lycée Carnot, Dijon
-      year: 2014-2017
+      year: 2014--2017
 
 
 - title: Awards
@@ -44,7 +44,7 @@
   contents:
     - year: 2022
       items:
-        - Excellence Scholarship (Ecole nationale des ponts et chaussées - Saint Gobain)
+        - Excellence Scholarship (École nationale des ponts et chaussées --- Saint-Gobain)
     - year: 2017
       items:
-        - European Girl's Mathematical Olympiad - Bronze medal
+        - European Girl's Mathematical Olympiad --- Bronze medal

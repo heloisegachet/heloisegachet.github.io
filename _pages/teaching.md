@@ -11,6 +11,6 @@ nav_order: 6
 <div class="publications">
 <ul>
   <li>Project in Centrale Supélec: Optimization of systems in passenger transportation</li>
-  <li>Training courses in Ecole nationale des ponts et chaussées: <a href="http://gede.enpc.fr/Programme/Fiche.aspx">Optimization</a></li>
+  <li>Training courses in École nationale des ponts et chaussées: <a href="http://gede.enpc.fr/Programme/Fiche.aspx">Optimization</a></li>
 </ul>
 </div>
