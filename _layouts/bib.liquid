@@ -78,6 +78,7 @@
           <em>
             {{- author.first }}
             {{ author.last -}}
+            {{yep}}
           </em>
         {%- else -%}
           {%- if coauthor_url -%}
@@ -88,6 +89,7 @@
           {%- else -%}
             {{ author.first }}
             {{ author.last }}
+            {{yepii}}
           {% endif %}
         {%- endif -%}
       {% endfor %}
@@ -105,7 +107,7 @@
             {% assign more_authors_show = more_authors_show | append: ', ' %}
           {% endunless %}
         {%- endfor -%}
-        gngngagn
+        {gngngagn}
         {%- if author_array_size == 2 -%}
         { eyey and }
         {%- else -%}
