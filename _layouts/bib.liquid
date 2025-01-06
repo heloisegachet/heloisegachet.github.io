@@ -44,8 +44,6 @@
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
     <div class="author">
-      {{entry.author_array_size}}
-
       {% assign author_array_size = entry.author_array | size %}
 
       {% assign author_array_limit = author_array_size %}
@@ -107,7 +105,11 @@
             {% assign more_authors_show = more_authors_show | append: ', ' %}
           {% endunless %}
         {%- endfor -%}
+        {%- if author_array_size == 2 -%}
+          and
+        {%- else -%}
         , and
+        {% endif %}
         <span
           class="more-authors"
           title="click to view {{more_authors_hide}}"
