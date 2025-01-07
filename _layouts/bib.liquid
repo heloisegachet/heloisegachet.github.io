@@ -61,9 +61,8 @@
         {%- endif -%}
         {% assign coauthor_url = null %}
         {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
-        clean_last_name+"jeje"
         {% if site.data.coauthors[clean_last_name] %}
-          {%- for coauthor in site.data.coauthors[clean_last_name] -%}
+          {%- for coauthor in site.data.coauthors[clean_last_name]-%}
             {% if coauthor.firstname contains author.first %}
               {%- assign coauthor_url = coauthor.url -%}
               {% break %}
@@ -80,19 +79,18 @@
           <em>
             {{- author.first }}
             {{ author.last -}}
-            yep
+            {{yep}}
           </em>
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{coauthor_url}}">
               {{- author.first }}
               {{ author.last -}}
-              eheheh
             </a>
           {%- else -%}
             {{ author.first }}
             {{ author.last }}
-            yepii
+            {{yepii}}
           {% endif %}
         {%- endif -%}
       {% endfor %}
