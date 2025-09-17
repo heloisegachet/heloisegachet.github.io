@@ -1,1 +1,1 @@
-# Academic website using html, php and css
+# Academic website using html and css
