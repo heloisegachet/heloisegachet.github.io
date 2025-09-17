@@ -30,6 +30,12 @@ a:hover {
     text-decoration: underline;  /* Soulignement au survol */
 }
 
+/* Style au survol uniquement sur ce lien (donc sur le header) */
+.header-top:hover {
+    color: inherit;           /* conserve la couleur normale */
+    text-decoration: none;    /* pas de soulignement */
+  }
+
 
 /* Bande 1 */
 .header-top {
