@@ -1,0 +1,55 @@
+.presentation-item {
+    width: 50%;
+    margin: 40px auto;
+}
+
+.presentation-item:not(:last-of-type) {
+    border-bottom: 1px solid #A888D1;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+
+
+.presentation-conference {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.presentation-title {
+    font-style: italic;
+}
+
+.presentation-authors {
+    padding-bottom: 10px;
+}
+
+.presentation-place {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.presentation-place::before {
+    font-weight: bold;
+    content: "\f19c ";
+    font-family: "Font Awesome 6 Free";
+    color: #1C7293; /* Couleur de l’icône */
+    margin-right: 10px;
+    
+}
+
+/* Dates */
+.presentation-date {
+    display: inline-block;
+    background: #1C7293;   
+    color: #F9F3DC;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.8em;
+    white-space: nowrap;   /* empêche le retour à la ligne */
+}
+
+.attendance-item {
+    width: 50%;
+    margin: 40px auto;
+}

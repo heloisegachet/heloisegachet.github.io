@@ -1,0 +1,62 @@
+.teaching-item {
+    width: 50%;
+    margin: 40px auto;
+}
+
+.teaching-item:not(:last-child) {
+    border-bottom: 1px solid #A888D1;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+
+
+.teaching-type {
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-bottom: 5px;
+}
+
+.teaching-title {
+    padding-bottom: 10px;
+}
+
+.teaching-place {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.teaching-place::before {
+    font-weight: bold;
+    content: "\f19c ";
+    font-family: "Font Awesome 6 Free";
+    color: #1C7293; /* Couleur de l’icône */
+    margin-right: 10px;
+    
+}
+
+/* Dates */
+.teaching-date {
+    display: inline-block;
+    background: #1C7293;   
+    color: #F9F3DC;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.8em;
+    white-space: nowrap;   /* empêche le retour à la ligne */
+}
+
+.teaching-tasks {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.teaching-students {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.teaching-supervisor {
+    font-size: 0.8em;
+    font-style: italic;
+    padding-bottom: 5px;
+}

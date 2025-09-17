@@ -1,0 +1,109 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {background-color: #F9F3DC;
+    color: #2F184B;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 250px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Tous les liens du site */
+a {
+    color: #EF6F6C;              /* Couleur par défaut */
+    text-decoration: none;    /* Pas de soulignement */
+    transition: color 0.3s ease;
+}
+a:visited {
+    color: #EF6F6C;              /* Couleur par défaut */
+    text-decoration: none;    /* Pas de soulignement */
+    transition: color 0.3s ease;
+}
+/* Survol (hover) */
+a:hover {
+    color: #EF6F6C;              /* Plus foncé au survol */
+    text-decoration: underline;  /* Soulignement au survol */
+}
+
+
+/* Bande 1 */
+.header-top {
+    position: fixed;
+    top: 0;           /* Toujours en haut */
+    left: 0;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+    z-index: 1000;    /* Toujours au-dessus du reste du contenu */
+    background-color: #F9F3DC;
+}
+
+.photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-right: 50px;
+    margin-left: 400px;
+}
+
+.site-name {
+    color: #2F184B;
+    font-weight: bold;
+    font-size: 26px;
+    font-family: arial, serif; /* Change la police ici */
+}
+
+/* Bande 2 */
+.site-nav {
+    position: fixed;
+    top: 150px;           /* Toujours en haut */
+    left: 0;
+    width: 100%;
+    background-color: #2F184B;
+    padding: 20px 20px;
+    z-index: 1000;    /* Toujours au-dessus du reste du contenu */
+    text-align: center;
+}
+
+.site-nav a {
+    color: #F9F3DC;
+    text-decoration: none;
+    margin: 0 30px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+}
+
+.site-nav a.active {
+    color: #A888D1;
+}
+
+.site-nav a.active::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #A888D1;
+}
+
+.separator {
+    color: #A888D1;
+    margin: 0 15px;
+}
+
+/* === Contenu du About === */
+.about-page-container {
+    width: 45%;
+    margin: 40px auto;
+}
+
+

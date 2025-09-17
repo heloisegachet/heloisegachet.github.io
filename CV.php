@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>CV</title>
+    <link rel="stylesheet" href="my_style.css">
+    <link rel="stylesheet" href="cv_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<?php include('header.php'); ?>
+
+<main>
+<div class="cv-page-container">
+    <div class="cv-left-column">
+            <p><a href="#experience" class="cv-section-link">Experience</a></p>
+            <p><a href="#education" class="cv-section-link">Education</a></p>
+            <p><a href="#awards" class="cv-section-link">Awards</a></p>
+    </div>
+    <div class="cv-right-column">
+        <section id="experience" class="cv-section">
+            <h2>Experience</h2>
+            <div class="cv-item">
+                <div class="cv-item-date">Nov.2023--2026</div>
+                <div class="cv-item-content">
+                    <div class="cv-item-title">PhD</div>
+                    <div class="cv-item-place"><a href=https://cermics-lab.enpc.fr>CERMICS</a>, École nationale des Ponts et chaussées, Champs-sur-Marne, France</div>
+                    <div class="cv-item-place"><a href=https://www.groupe-sncf.com>SNCF</a>, Saint-Denis, France</div>
+                    <ul>
+                        <li>Integrated and robust design of cyclic grids for railway freight.</li>
+                        <li>Balanced assignments of periodic tasks</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cv-item">
+                <div class="cv-item-date">July--Sep.2025</div>
+                <div class="cv-item-content">
+                    <div class="cv-item-title">Research stay</div>
+                    <div class="cv-item-place"><a href=https://math.rptu.de/en/wgs/opt>RPTU University Kaiserslautern-Landau</a>, Kaiserslautern, Germany</div>
+                    <ul>
+                        <li>Branch-and-price for line planning with minimum transfer time</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cv-item">
+                <div class="cv-item-date">Apr.--Oct.2023</div>
+                <div class="cv-item-content">
+                    <div class="cv-item-title">Master internship</a></div>
+                    <div class="cv-item-place"><a href=https://corporate.airfrance.com/en/operations-research-engineer>Air France</a>, Tremblay-en-France, France</div>
+                    <ul>
+                        <li>Metaheuristics and MILP for ground resources planning.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cv-item">
+                <div class="cv-item-date">Feb.--Aug.2022</div>
+                <div class="cv-item-content">
+                    <div class="cv-item-title">Internship</div>
+                    <div class="cv-item-place"><a href=https://hanalog.ca>Polytechnique Montréal</a>, Montréal, Canada</div>
+                    <ul>
+                        <li>Predictive allocation of digestive endoscopy procedural time.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cv-item">
+                <div class="cv-item-date">June--Dec.2021</div>
+                <div class="cv-item-content">
+                    <div class="cv-item-title">Internship</div>
+                    <div class="cv-item-place"><a href=https://www.groupe-sncf.com>SNCF</a>, Saint-Denis, France</div>
+                    <ul>
+                        <li>Introduction of similarities in crew schedules with non periodic train tasks.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="education" class="cv-section">
+            <h2>Education</h2>
+            <div class="cv-item">
+                <div class="cv-item-date">2022--2023</div>
+                <div class="cv-item-content">
+                    <div class="cv-item-title">Master's Degree</div>
+                    <div class="cv-item-place"><a href=https://uma.ensta-paris.fr/mpro/master2>MPRO</a> (Parisian Master of Operations Research), Paris, France</div>
+                </div>
+            </div>
+            <div class="cv-item">
+                <div class="cv-item-date">2019--2023</div>
+                <div class="cv-item-content">
+                    <div class="cv-item-title">Engineering Degree</div>
+                    <div class="cv-item-place"><a href=https://ecoledesponts.fr/en/engineering-program>École nationale des ponts et chaussées</a>, Champs-sur-Marne, France</div>
+                    <ul>
+                        <li>Mathematics and Computer Science department</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cv-item">
+                <div class="cv-item-date">2017--2019</div>
+                <div class="cv-item-content">
+                    <div class="cv-item-title">Preparatory classes for the French Grandes Écoles (MPSI-MP*)</div>
+                    <div class="cv-item-place">Lycée Louis-le-Grand, Paris, France</div>
+                    <ul>
+                        <li>Mathematics and Computer Science department</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cv-item">
+                <div class="cv-item-date">2014--2017</div>
+                <div class="cv-item-content">
+                    <div class="cv-item-title">High-school</div>
+                    <div class="cv-item-place">Lycée Carnot, Paris, France</div>
+                    <ul>
+                        <li>European English section</li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+        <section id="awards" class="cv-section">
+            <h2>Awards</h2>
+            <div class="cv-item">
+                <div class="cv-item-date">2022</div>
+                <div class="cv-item-content">
+                    <div class="cv-item-title">Excellence Scholarship</div>
+                    <ul>
+                        <li>École nationale des ponts et chaussées --- Saint-Gobain</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cv-item">
+                <div class="cv-item-date">2017</div>
+                <div class="cv-item-content">
+                    <div class="cv-item-title">Bronze medal at the European Girl's Mathematical Olympiad (<a href=https://www.egmo.org>EGMO</a>)</div>
+                    <div class="cv-item-place">Zürich, Switzerland</div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+<script>
+window.addEventListener("scroll", function () {
+    const sections = document.querySelectorAll(".cv-section");
+    let currentSectionId = "";
+
+    sections.forEach((section) => {
+        const rect = section.getBoundingClientRect();
+        if (rect.top < 150 && rect.bottom > 150) {
+            currentSectionId = section.id;
+        }
+    });
+});
+</script>
+
+</main>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+.publication-item {
+    display: flex;           /* Active Flexbox */
+    width: 50%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    gap: 5px;
+}
+
+.publication-item:not(:last-child) {
+    border-bottom: 1px solid #A888D1;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+
+
+/* Colonne gauche */
+.publication-image {
+    max-width: 80%;      /* largeur maximale */
+    max-height: 130px;     /* hauteur maximale */
+    width: auto;           /* conserve les proportions */
+    height: auto;          /* idem */
+    margin: auto;
+    padding: 40px;
+}
+
+/* Colonne droite (contenu) */
+.publication-details {
+    flex: 1;                 /* Prend tout l’espace restant */
+    padding: 40px;
+    overflow-y: auto;        /* Scroll si trop de contenu */
+}
+
+.publication-title {
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-bottom: 5px;
+}
+
+.publication-authors {
+    padding-bottom: 10px;
+}
+
+.publication-source {
+    font-style: italic;
+    padding-bottom: 5px;
+}

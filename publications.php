@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Publications</title>
+    <link rel="stylesheet" href="my_style.css">
+    <link rel="stylesheet" href="publication_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+
+<?php include('header.php'); ?>
+
+<main>
+<div class="publication-item">
+    <img src="pebbles.gif" alt="Image" class="publication-image">
+    <div class="publication-details">
+        <div class="publication-title">Balanced assignments of periodic tasks</div>
+        <div class="publication-authors">Héloïse Gachet and Frédéric Meunier</div>
+        <div class="publication-source">Preprint, 26 May 2025.<a href="https://arxiv.org/pdf/2407.05485"> (link)</a></div> 
+        <div class="publication-source">Preliminary version in 24th Symposium on Algorithmic Approaches for Transportation Modelling, Optimization, and Systems (ATMOS 2024) , 2024<a href="https://drops.dagstuhl.de/storage/01oasics/oasics-vol123-atmos2024/OASIcs.ATMOS.2024.5/OASIcs.ATMOS.2024.5.pdf"> (link)</a>
+    </div>
+</div>
+</main>
+
+</body>
+</html>
