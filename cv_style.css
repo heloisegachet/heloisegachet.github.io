@@ -1,6 +1,5 @@
 /* === Contenu du CV === */
 .cv-page-container {
-    display: flex;           /* Active Flexbox */
     width: 50%;
     margin: 40px auto;
     display: grid;

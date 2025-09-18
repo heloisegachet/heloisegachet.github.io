@@ -10,7 +10,7 @@ body {background-color: #F9F3DC;
     margin-top: 250px;
     margin-bottom: 30px;
     font-size: 18px;
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: "Outfit", sans-serif;
 }
 
 /* Tous les liens du site */
@@ -50,6 +50,31 @@ a:hover {
     background-color: #F9F3DC;
 }
 
+
+/* === Contenu du CV === */
+.header-top {
+    position:fixed;
+    top: 0;           /* Toujours en haut */
+    left: 0;
+    width: 100%;
+    z-index: 1000;    /* Toujours au-dessus du reste du contenu */
+    display: grid;
+    grid-template-columns: 15% 85%;
+    gap: 5px;
+}
+
+/* Colonne gauche */
+.photo-column {
+    width: 40%;            /* Largeur fixe */
+    top: 20px; /* distance depuis le haut de la fenêtre */
+}
+
+/* Colonne droite (contenu) */
+.name-column {
+    flex: 1;                 /* Prend tout l’espace restant */
+    padding-left: 300px;
+}
+
 .photo {
     width: 120px;
     height: 120px;
@@ -63,8 +88,14 @@ a:hover {
     color: #2F184B;
     font-weight: bold;
     font-size: 26px;
-    font-family: arial, serif; /* Change la police ici */
 }
+
+.site-email {
+    color: #2F184B;
+    font-size: 16px;
+    display: block;
+}
+
 
 /* Bande 2 */
 .site-nav {
