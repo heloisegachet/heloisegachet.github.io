@@ -66,7 +66,7 @@ a:hover {
 /* Colonne gauche */
 .photo-column {
     width: 40%;            /* Largeur fixe */
-    top: 20px; /* distance depuis le haut de la fenêtre */
+    top: 10%; /* distance depuis le haut de la fenêtre */
 }
 
 /* Colonne droite (contenu) */
@@ -80,8 +80,7 @@ a:hover {
     height: 120px;
     border-radius: 100%;
     object-fit: cover;
-    margin-right: 50px;
-    margin-left: 400px;
+    margin-left: 350%;
 }
 
 .site-name {

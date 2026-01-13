@@ -21,7 +21,29 @@
 }
 
 .presentation-authors {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.presentation-files {
+    color: #A888D1;              /* Couleur par défaut */
+    font-weight: bold;
+    font-size: 0.8em;
+    text-decoration: none;    /* Pas de soulignement */
+    transition: color 0.3s ease;
+}
+.presentation-files:visited {
+    color: #A888D1;              /* Couleur par défaut */
+    font-weight: bold;
+    font-size: 0.8em;
+    text-decoration: none;    /* Pas de soulignement */
+    transition: color 0.3s ease;
+}
+/* Survol (hover) */
+.presentation-files:hover {
+    color: #A888D1;              /* Plus foncé au survol */
+    text-decoration: underline;  /* Soulignement au survol */
+    font-weight: bold;
+    font-size: 0.8em;
 }
 
 .presentation-place {
@@ -52,4 +74,11 @@
 .attendance-item {
     width: 50%;
     margin: 40px auto;
+}
+
+.presentation-status {
+    font-weight: bold;
+    font-style: italic;
+    color: #A888D1; /* Couleur */
+    padding-bottom: 10px;
 }
