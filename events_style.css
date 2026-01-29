@@ -1,16 +1,16 @@
-.presentation-item {
+.event-item {
     width: 50%;
     margin: 40px auto;
 }
 
-.presentation-item:not(:last-of-type) {
+.event-item:not(:last-of-type) {
     border-bottom: 1px solid #A888D1;
     padding-bottom: 15px;
     margin-bottom: 15px;
   }
 
 
-.presentation-conference {
+.event-conference {
     font-size: 1.2em;
     font-weight: bold;
     padding-bottom: 10px;
@@ -46,11 +46,11 @@
     font-size: 0.8em;
 }
 
-.presentation-place {
+.event-place {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.presentation-place::before {
+.event-place::before {
     font-weight: bold;
     content: "\f19c ";
     font-family: "Font Awesome 6 Free";
@@ -60,7 +60,7 @@
 }
 
 /* Dates */
-.presentation-date {
+.event-date {
     display: inline-block;
     background: #1C7293;   
     color: #F9F3DC;
@@ -71,13 +71,7 @@
     white-space: nowrap;   /* empêche le retour à la ligne */
 }
 
-.attendance-item {
-    border-bottom: 1px solid #A888D1;
-    padding-bottom: 15px;
-    margin-bottom: 15px;
-}
-
-.presentation-status {
+.event-status {
     font-weight: bold;
     font-style: italic;
     color: #A888D1; /* Couleur */
