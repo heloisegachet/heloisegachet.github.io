@@ -72,8 +72,9 @@
 }
 
 .attendance-item {
-    width: 50%;
-    margin: 40px auto;
+    border-bottom: 1px solid #A888D1;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .presentation-status {
