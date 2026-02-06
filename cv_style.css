@@ -111,3 +111,17 @@ a.cv-section-link:hover {
     color: #1C7293; /* Couleur de l’icône */
     margin-right: 10px;
 }
+
+/* People */
+.cv-item-people {
+    font-style: italic;
+    color: #2F184B;
+    font-size: 0.8em;
+}
+
+.cv-item-people::before {
+    content: "\f500 ";
+    font-family: "Font Awesome 6 Free";
+    color: #1C7293; /* Couleur de l’icône */
+    margin-right: 10px;
+}
