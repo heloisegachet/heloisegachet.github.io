@@ -120,7 +120,9 @@ a.cv-section-link:hover {
 }
 
 .cv-item-people::before {
-    content: "\f500 ";
+    font-weight: bold;
+    font-style: normal;
+    content: "\f500";
     font-family: "Font Awesome 6 Free";
     color: #1C7293; /* Couleur de l’icône */
     margin-right: 10px;
